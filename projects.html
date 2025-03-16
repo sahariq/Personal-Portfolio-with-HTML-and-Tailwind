@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-500 via-blue-400 to-cyan-400 text-white font-sans min-h-screen">
+    
+    <!-- Navigation Bar -->
+    <header class="bg-blue-700 bg-opacity-90 fixed top-0 left-0 w-full p-5 shadow-lg z-50">
+        <nav class="container mx-auto flex justify-center">
+            <ul class="flex space-x-6 md:space-x-10 text-lg font-semibold">
+                <li><a href="personalprofile.html" class="hover:text-yellow-300 transition">Personal Profile</a></li>
+                <li><a href="gallery.html" class="hover:text-yellow-300 transition">Gallery</a></li>
+                <li><a href="careergoals.html" class="hover:text-yellow-300 transition">Career Goals</a></li>
+                <li><a href="projects.html" class="text-yellow-300 font-bold">Projects</a></li>
+                <li><a href="skills.html" class="hover:text-yellow-300 transition">Skills</a></li>
+                <li><a href="contactus.html" class="hover:text-yellow-300 transition">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="h-screen flex flex-col items-center justify-center text-center px-6">
+        <h1 class="text-5xl md:text-6xl font-bold bg-gradient-to-r from-yellow-300 via-white to-blue-300 bg-clip-text text-transparent animate-pulse">
+            Projects
+        </h1>
+    </section>
+
+    <!-- Projects Section -->
+    <main class="container mx-auto px-6 md:px-12 pb-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Project Card 1 -->
+            <div class="bg-white bg-opacity-10 backdrop-blur-md p-6 rounded-lg shadow-lg transition transform hover:scale-105 border border-white border-opacity-20">
+                <h2 class="text-2xl font-bold mb-3 bg-gradient-to-r from-yellow-300 via-white to-blue-300 bg-clip-text text-transparent">
+                    Pharmacy Management System
+                </h2>
+                <p class="text-lg mb-4 text-gray-200">
+                    Developed for our Software Development course, this system manages pharmacy inventory and transactions.
+                </p>
+                <p class="text-sm text-gray-300 mb-2">
+                    Technologies Used: <span class="font-semibold">HTML, CSS, JavaScript</span>
+                </p>
+                <div class="mt-4">
+                    <a href="https://github.com/username/project1" class="text-yellow-300 hover:underline">View on GitHub</a> | 
+                    <a href="https://live-demo.com" class="text-yellow-300 hover:underline">Live Demo</a>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="bg-white bg-opacity-10 backdrop-blur-md p-6 rounded-lg shadow-lg transition transform hover:scale-105 border border-white border-opacity-20">
+                <h2 class="text-2xl font-bold mb-3 bg-gradient-to-r from-yellow-300 via-white to-blue-300 bg-clip-text text-transparent">
+                    Pacman Game (CLI)
+                </h2>
+                <p class="text-lg mb-4 text-gray-200">
+                    A terminal-based Pacman game created for our Data Structures course using object-oriented programming principles.
+                </p>
+                <p class="text-sm text-gray-300 mb-2">
+                    Technologies Used: <span class="font-semibold">C++, SFML</span>
+                </p>
+                <div class="mt-4">
+                    <a href="https://github.com/username/project2" class="text-yellow-300 hover:underline">View on GitHub</a> | 
+                    <a href="https://live-demo.com" class="text-yellow-300 hover:underline">Live Demo</a>
+                </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="bg-white bg-opacity-10 backdrop-blur-md p-6 rounded-lg shadow-lg transition transform hover:scale-105 border border-white border-opacity-20">
+                <h2 class="text-2xl font-bold mb-3 bg-gradient-to-r from-yellow-300 via-white to-blue-300 bg-clip-text text-transparent">
+                    Portfolio Website
+                </h2>
+                <p class="text-lg mb-4 text-gray-200">
+                    Built a personal portfolio to showcase my skills, projects, and experiences.
+                </p>
+                <p class="text-sm text-gray-300 mb-2">
+                    Technologies Used: <span class="font-semibold">HTML, Tailwind CSS, JavaScript</span>
+                </p>
+                <div class="mt-4">
+                    <a href="https://github.com/username/project3" class="text-yellow-300 hover:underline">View on GitHub</a> | 
+                    <a href="https://live-demo.com" class="text-yellow-300 hover:underline">Live Demo</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Contact Button -->
+        <div class="flex justify-center mt-12">
+            <a href="contactus.html" class="px-8 py-3 text-lg font-semibold rounded-lg bg-yellow-300 text-blue-900 hover:bg-white hover:text-blue-700 transition duration-300 shadow-lg">
+                Get in Touch
+            </a>
+        </div>
+    </main>
+
+</body>
+</html>

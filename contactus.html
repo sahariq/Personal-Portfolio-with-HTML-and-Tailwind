@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-500 via-blue-400 to-cyan-400 text-white font-sans min-h-screen">
+    
+    <!-- Navigation Bar -->
+    <header class="bg-blue-700 bg-opacity-90 fixed top-0 left-0 w-full p-5 shadow-lg z-50">
+        <nav class="container mx-auto flex justify-center">
+            <ul class="flex space-x-6 md:space-x-10 text-lg font-semibold">
+                <li><a href="personalprofile.html" class="hover:text-yellow-300 transition">Personal Profile</a></li>
+                <li><a href="gallery.html" class="hover:text-yellow-300 transition">Gallery</a></li>
+                <li><a href="careergoals.html" class="hover:text-yellow-300 transition">Career Goals</a></li>
+                <li><a href="projects.html" class="hover:text-yellow-300 transition">Projects</a></li>
+                <li><a href="skills.html" class="hover:text-yellow-300 transition">Skills and Interests</a></li>
+                <li><a href="contactus.html" class="text-yellow-300 font-bold">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 md:px-12 pt-32 pb-16">
+        <h1 class="text-5xl md:text-6xl font-bold bg-gradient-to-r from-yellow-300 via-white to-blue-300 bg-clip-text text-transparent text-center mb-12">
+            Contact Us
+        </h1>
+
+        <!-- Get in Touch Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-yellow-300 via-white to-blue-300 bg-clip-text text-transparent text-center">
+                Get in Touch
+            </h2>
+            <form action="#" method="POST" class="space-y-6 max-w-lg mx-auto">
+                <div class="bg-white bg-opacity-10 backdrop-blur-md p-4 rounded-lg shadow-lg border border-white border-opacity-20">
+                    <label for="name" class="block text-lg font-semibold mb-2">Name</label>
+                    <input type="text" id="name" name="name" required class="w-full p-3 bg-transparent border border-blue-300 rounded text-white focus:outline-none focus:border-yellow-300" placeholder="Your Name">
+                </div>
+                <div class="bg-white bg-opacity-10 backdrop-blur-md p-4 rounded-lg shadow-lg border border-white border-opacity-20">
+                    <label for="email" class="block text-lg font-semibold mb-2">Email</label>
+                    <input type="email" id="email" name="email" required class="w-full p-3 bg-transparent border border-blue-300 rounded text-white focus:outline-none focus:border-yellow-300" placeholder="Your Email">
+                </div>
+                <div class="bg-white bg-opacity-10 backdrop-blur-md p-4 rounded-lg shadow-lg border border-white border-opacity-20">
+                    <label for="subject" class="block text-lg font-semibold mb-2">Subject</label>
+                    <input type="text" id="subject" name="subject" required class="w-full p-3 bg-transparent border border-blue-300 rounded text-white focus:outline-none focus:border-yellow-300" placeholder="Subject of Your Message">
+                </div>
+                <div class="bg-white bg-opacity-10 backdrop-blur-md p-4 rounded-lg shadow-lg border border-white border-opacity-20">
+                    <label for="message" class="block text-lg font-semibold mb-2">Message</label>
+                    <textarea id="message" name="message" rows="6" required class="w-full p-3 bg-transparent border border-blue-300 rounded text-white focus:outline-none focus:border-yellow-300" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="w-full py-3 bg-yellow-300 text-blue-900 font-bold rounded-lg hover:bg-white hover:text-blue-700 transition duration-300 shadow-lg">
+                    Send Message
+                </button>
+            </form>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section class="text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-yellow-300 via-white to-blue-300 bg-clip-text text-transparent">
+                Contact Information
+            </h2>
+            <div class="bg-white bg-opacity-10 backdrop-blur-md p-6 rounded-lg shadow-lg border border-white border-opacity-20 max-w-lg mx-auto">
+                <p class="text-lg md:text-xl mb-4">Feel free to reach out to me via email or phone:</p>
+                <p class="text-lg">
+                    Email: <a href="mailto:i228803@nu.edu.pk" class="text-blue-300 hover:underline">i228803@nu.edu.pk</a>
+                </p>
+                <p class="text-lg">
+                    Phone: <a href="tel:+943349567336" class="text-blue-300 hover:underline">+94 334 9567 336</a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
